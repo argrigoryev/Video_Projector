@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.videoprojector">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VideoProjector">
+        <activity
+            android:name=".SelectVideo2"
+            android:exported="true" />
+        <activity
+            android:name=".HowToChoose"
+            android:exported="true" />
+        <activity
+            android:name=".HowToUse"
+            android:exported="true" />
+        <activity
+            android:name=".WhoCameUpWith"
+            android:exported="true" />
+        <activity
+            android:name=".Setting"
+            android:exported="true" />
+        <activity
+            android:name=".ProjectorGuide"
+            android:exported="true" />
+        <activity
+            android:name=".SelectTheme"
+            android:exported="true" />
+        <activity
+            android:name=".SelectVideo"
+            android:exported="true" />
+        <activity
+            android:name=".Menu"
+            android:exported="true" />
+        <activity
+            android:name=".Select"
+            android:exported="true" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:exported="true" />
+        <activity
+            android:name=".Main"
+            android:exported="true" />
+        <activity
+            android:name=".StartApp"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

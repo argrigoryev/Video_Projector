@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/work/app/src/main/res/drawable/custombutton.xml" value="0.1" />
+        <entry key="..\:/work/app/src/main/res/drawable/gradient.xml" value="0.10740740740740741" />
+        <entry key="..\:/work/app/src/main/res/drawable/gradientfortext.xml" value="0.10555555555555556" />
+        <entry key="..\:/work/app/src/main/res/drawable/splash.xml" value="0.1259259259259259" />
+        <entry key="..\:/work/app/src/main/res/drawable/splashscreen.xml" value="0.1" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_how_to_choose.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_how_to_use.xml" value="0.24010416666666667" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_privacy_policy.xml" value="0.264" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_projector_guide.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_select.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_select_theme.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_select_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_select_video2.xml" value="0.2341485507246377" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_start_app.xml" value="0.2341485507246377" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_startapp.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/activity_who_came_up_with.xml" value="0.25416666666666665" />
+        <entry key="..\:/work/app/src/main/res/layout/files_list.xml" value="0.24682971014492755" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
