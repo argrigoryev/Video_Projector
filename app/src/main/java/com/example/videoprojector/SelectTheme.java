@@ -20,6 +20,7 @@ public class SelectTheme extends AppCompatActivity {
         Shader textShader=new LinearGradient(0, 0, 800, 0, new int[]{Color.parseColor("#B6E5FF"),Color.parseColor("#F6D0C5")},
                 new float[]{0, 1}, Shader.TileMode.CLAMP);
         title.getPaint().setShader(textShader);
+        Model.instance().selectedTheme = null;
     }
 
     private void saveTheme(int id) {

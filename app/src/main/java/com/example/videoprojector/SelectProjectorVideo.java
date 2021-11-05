@@ -19,6 +19,7 @@ public class SelectProjectorVideo extends AppCompatActivity {
         setContentView(R.layout.activity_select_projector_video);
         this.setTitleGradient();
         this.initializeVideoList();
+        Model.instance().selectedVideo = null;
     }
 
     private void setTitleGradient() {

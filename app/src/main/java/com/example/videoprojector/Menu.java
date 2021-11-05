@@ -25,7 +25,6 @@ public class Menu extends AppCompatActivity {
     }
 
     public void onVideoProjectorMenuButtonClick(View view) {
-
         Intent selectProjectorVideoIntent = new Intent(Menu.this, SelectProjectorVideo.class);
         startActivity(selectProjectorVideoIntent);
     }
