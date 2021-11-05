@@ -22,9 +22,43 @@ public class SelectTheme extends AppCompatActivity {
         title.getPaint().setShader(textShader);
     }
 
+    private void saveTheme(int id) {
+        String selectedTheme = null;
+        switch (id) {
+            case R.id.theme_1:
+                selectedTheme = "theme_1";
+                break;
+            case R.id.theme_2:
+                selectedTheme = "theme_2";
+                break;
+            case R.id.theme_3:
+                selectedTheme = "theme_3";
+                break;
+            case R.id.theme_4:
+                selectedTheme = "theme_4";
+                break;
+            case R.id.theme_5:
+                selectedTheme = "theme_5";
+                break;
+            case R.id.theme_6:
+                selectedTheme = "theme_6";
+                break;
+            case R.id.theme_7:
+                selectedTheme = "theme_7";
+                break;
+            case R.id.theme_8:
+                selectedTheme = "theme_8";
+                break;
+            case R.id.theme_9:
+                selectedTheme = "theme_9";
+                break;
+        }
+        Model.instance().selectedTheme = selectedTheme;
+    }
+
 
     public void onThemeSelect(View imageView) {
-        Model.instance().selectedTheme = "" + imageView.getId();
+        this.saveTheme(imageView.getId());
         if (Model.instance().selectedVideo == null) {
             Intent videoProjectorIntent = new Intent(SelectTheme.this, SelectProjectorVideo.class);
             startActivity(videoProjectorIntent);

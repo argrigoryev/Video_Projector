@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.VideoView;
@@ -36,7 +37,5 @@ public class VideoProjector extends AppCompatActivity {
         videoView2.setVideoURI(uri);
         videoView2.requestFocus();
         videoView2.start();
-
-        // Model.instance().selectedTheme
     }
 }
