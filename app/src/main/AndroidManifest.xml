@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.videoprojector">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VideoProjector">
         <activity
-            android:name=".SelectVideo2"
+            android:name=".VideoProjector"
+            android:exported="true" />
+        <activity
+            android:name=".Finish"
+            android:exported="true" />
+        <activity
+            android:name=".VideoPlayer"
+            android:exported="true" />
+        <activity
+            android:name=".SelectPlayerVideo"
             android:exported="true" />
         <activity
             android:name=".HowToChoose"
@@ -34,7 +43,7 @@
             android:name=".SelectTheme"
             android:exported="true" />
         <activity
-            android:name=".SelectVideo"
+            android:name=".SelectProjectorVideo"
             android:exported="true" />
         <activity
             android:name=".Menu"
@@ -50,6 +59,9 @@
             android:exported="true" />
         <activity
             android:name=".StartApp"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>

@@ -13,4 +13,5 @@ public class Model {
     }
 
     File selectedVideo = null;
+    String selectedTheme = null;
 }

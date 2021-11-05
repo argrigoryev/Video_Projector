@@ -28,7 +28,7 @@ public class Select extends AppCompatActivity {
     }
 
     public void onVideoStreamingButtonClick(View view) {
-        Intent videostreaming = new Intent(Select.this, SelectVideo2.class);
+        Intent videostreaming = new Intent(Select.this, SelectPlayerVideo.class);
         startActivity(videostreaming);
 
     }

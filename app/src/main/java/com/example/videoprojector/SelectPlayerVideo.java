@@ -1,22 +1,24 @@
 package com.example.videoprojector;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Shader;
 import android.os.Bundle;
-import android.widget.TextView;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
+import android.widget.TextView;
 
-public class SelectVideo extends AppCompatActivity {
+public class SelectPlayerVideo extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select_video);
+        setContentView(R.layout.activity_select_player_video);
         this.setTitleGradient();
         this.initializeVideoList();
     }
@@ -42,8 +44,8 @@ public class SelectVideo extends AppCompatActivity {
                 new RecyclerItemClickListener(this, recyclerView ,new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
                         Model.instance().selectedVideo = Constant.allMediaList.get(position);
-                        Intent selectThemeIntent = new Intent(SelectVideo.this, SelectTheme.class);
-                        startActivity(selectThemeIntent);
+                        Intent videoPlayerIntent = new Intent(SelectPlayerVideo.this, VideoPlayer.class);
+                        startActivity(videoPlayerIntent);
                     }
 
                     @Override public void onLongItemClick(View view, int position) {}
