@@ -52,7 +52,9 @@
                     android:layout_marginRight="10dp"
                     android:onClick="onThemeSelect"
                     app:srcCompat="@drawable/theme_1"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:background="#fff" />
 
 
                 <ImageView
@@ -62,7 +64,9 @@
                     android:layout_marginLeft="10dp"
                     android:onClick="onThemeSelect"
                     app:srcCompat="@drawable/theme_2"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:background="#fff" />
 
             </LinearLayout>
 
@@ -80,7 +84,9 @@
                     android:layout_marginRight="10dp"
                     android:onClick="onThemeSelect"
                     app:srcCompat="@drawable/theme_3"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:background="#fff" />
 
                 <ImageView
                     android:id="@+id/theme_4"
@@ -89,7 +95,9 @@
                     android:layout_marginLeft="10dp"
                     android:onClick="onThemeSelect"
                     app:srcCompat="@drawable/theme_4"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:background="#fff" />
 
             </LinearLayout>
 
@@ -107,7 +115,9 @@
                     android:layout_marginRight="10dp"
                     android:onClick="onThemeSelect"
                     app:srcCompat="@drawable/theme_5"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:background="#fff" />
 
 
                 <ImageView
@@ -117,7 +127,9 @@
                     android:layout_marginLeft="10dp"
                     android:onClick="onThemeSelect"
                     app:srcCompat="@drawable/theme_6"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:background="#fff" />
 
             </LinearLayout>
 
@@ -135,7 +147,9 @@
                     android:layout_marginRight="10dp"
                     android:onClick="onThemeSelect"
                     app:srcCompat="@drawable/theme_7"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:background="#fff" />
 
 
                 <ImageView
@@ -145,7 +159,9 @@
                     android:layout_marginLeft="10dp"
                     android:onClick="onThemeSelect"
                     app:srcCompat="@drawable/theme_8"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:background="#fff" />
 
             </LinearLayout>
 
@@ -157,7 +173,9 @@
                 android:layout_marginLeft="35dp"
                 android:onClick="onThemeSelect"
                 app:srcCompat="@drawable/theme_9"
-                android:scaleType="fitXY"/>
+                android:scaleType="fitXY"
+                android:padding="1dp"
+                android:background="#fff" />
 
         </LinearLayout>
 
