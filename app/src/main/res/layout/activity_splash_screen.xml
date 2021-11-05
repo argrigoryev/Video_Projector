@@ -29,5 +29,9 @@
         app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.494" />
+        app:layout_constraintVertical_bias="0.494"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="#333333"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
