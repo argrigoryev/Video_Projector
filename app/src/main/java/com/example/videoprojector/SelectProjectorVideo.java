@@ -20,6 +20,7 @@ public class SelectProjectorVideo extends AppCompatActivity {
         this.setTitleGradient();
         this.initializeVideoList();
         Model.instance().selectedVideo = null;
+
     }
 
     private void setTitleGradient() {

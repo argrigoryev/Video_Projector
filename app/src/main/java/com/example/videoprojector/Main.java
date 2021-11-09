@@ -17,8 +17,12 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.setTitleGradient();
+    }
+
+    private void setTitleGradient() {
         TextView title = (TextView)findViewById(R.id.title);
-        Shader textShader=new LinearGradient(0, 0, 800, 0, new int[] { Color.parseColor("#B6E5FF"), Color.parseColor("#F6D0C5") }, new float[] { 0, 1 }, Shader.TileMode.CLAMP);
+        Shader textShader=new LinearGradient(0, 0, 800, 0, new int[]{Color.parseColor("#B6E5FF"),Color.parseColor("#F6D0C5")}, new float[]{0, 1}, Shader.TileMode.CLAMP);
         title.getPaint().setShader(textShader);
     }
 
@@ -28,13 +32,13 @@ public class Main extends AppCompatActivity {
     }
 
     public void onPrivacyPoliceButtonClick(View view) {
-        Intent privacypolicy = new Intent(Main.this, PrivacyPolicy.class);
-        startActivity(privacypolicy);
+        Intent privacyPolicyIntent = new Intent(Main.this, PrivacyPolicy.class);
+        startActivity(privacyPolicyIntent);
     }
 
     public void onStartButtonClick(View view) {
-        Intent start = new Intent(Main.this, Select.class);
-        startActivity(start);
+        Intent selectIntent = new Intent(Main.this, Select.class);
+        startActivity(selectIntent);
     }
 
     public void onRateButtonClick(View view) {

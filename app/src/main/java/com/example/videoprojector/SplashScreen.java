@@ -18,6 +18,12 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
+//        YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder(API_key).build();
+//
+//        YandexMetrica.activate(getApplicationContext(), config);
+//
+//        YandexMetrica.enableActivityAutoTracking(this);
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override

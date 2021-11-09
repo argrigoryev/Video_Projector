@@ -16,11 +16,14 @@ public class SelectTheme extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_theme);
-        TextView title = (TextView)findViewById(R.id.title);
-        Shader textShader=new LinearGradient(0, 0, 800, 0, new int[]{Color.parseColor("#B6E5FF"),Color.parseColor("#F6D0C5")},
-                new float[]{0, 1}, Shader.TileMode.CLAMP);
-        title.getPaint().setShader(textShader);
+        this.setTitleGradient();
         Model.instance().selectedTheme = null;
+    }
+
+    private void setTitleGradient() {
+        TextView title = (TextView)findViewById(R.id.title);
+        Shader textShader=new LinearGradient(0, 0, 800, 0, new int[]{Color.parseColor("#B6E5FF"),Color.parseColor("#F6D0C5")}, new float[]{0, 1}, Shader.TileMode.CLAMP);
+        title.getPaint().setShader(textShader);
     }
 
     private void saveTheme(int id) {
@@ -56,7 +59,6 @@ public class SelectTheme extends AppCompatActivity {
         }
         Model.instance().selectedTheme = selectedTheme;
     }
-
 
     public void onThemeSelect(View imageView) {
         this.saveTheme(imageView.getId());

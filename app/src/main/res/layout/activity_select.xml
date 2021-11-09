@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".Select">
 
-
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -21,7 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <ImageView
         android:id="@+id/popcorn"
         android:layout_width="250dp"
@@ -32,7 +30,6 @@
         app:layout_constraintTop_toBottomOf="@+id/title"
         app:srcCompat="@drawable/popcorn" />
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="185dp"
@@ -42,10 +39,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-
         <ImageView
-
-            android:id="@+id/videoprojectorimage"
+            android:id="@+id/videoProjectorImageButton"
             android:layout_width="match_parent"
             android:layout_height="76dp"
             android:layout_gravity="center"
@@ -53,15 +48,13 @@
             app:srcCompat="@drawable/videoprojectorimage" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/videoStreamingButton"
             android:layout_width="match_parent"
             android:layout_height="76dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:onClick="onVideoStreamingButtonClick"
             app:srcCompat="@drawable/videostreaming" />
-
-
     </LinearLayout>
 
 

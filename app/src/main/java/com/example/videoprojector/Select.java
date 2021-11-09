@@ -23,13 +23,13 @@ public class Select extends AppCompatActivity {
     }
 
     public void onVideoProjectorSelectButtonClick(View view) {
-        Intent videoprojectorselect = new Intent(Select.this, Menu.class);
-        startActivity(videoprojectorselect);
+        Intent menuIntent = new Intent(Select.this, Menu.class);
+        startActivity(menuIntent );
     }
 
     public void onVideoStreamingButtonClick(View view) {
-        Intent videostreaming = new Intent(Select.this, SelectPlayerVideo.class);
-        startActivity(videostreaming);
+        Intent selectPlayerVideoIntent = new Intent(Select.this, SelectPlayerVideo.class);
+        startActivity(selectPlayerVideoIntent);
 
     }
 }

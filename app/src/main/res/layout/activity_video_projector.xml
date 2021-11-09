@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/theme"
+        android:id="@+id/backgroundTheme"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="85dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <VideoView
-        android:id="@+id/vdVw"
+        android:id="@+id/videoPlayer"
         android:layout_width="wrap_content"
         android:layout_height="230dp"
         android:layout_marginTop="150dp"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/phone"
+        android:id="@+id/phoneTheme"
         android:layout_width="410dp"
         android:layout_height="279dp"
         android:layout_marginBottom="28dp"
@@ -52,7 +52,7 @@
         app:srcCompat="@drawable/telefon" />
 
     <VideoView
-        android:id="@+id/videoView3"
+        android:id="@+id/videoPhone"
         android:layout_width="wrap_content"
         android:layout_height="133dp"
         android:layout_marginStart="30dp"

@@ -47,7 +47,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
             <ImageView
-                android:id="@+id/start"
+                android:id="@+id/startButton"
                 android:layout_width="130dp"
                 android:layout_height="80dp"
                 android:layout_marginRight="10dp"
@@ -55,7 +55,7 @@
                 app:srcCompat="@drawable/start" />
 
             <ImageView
-                android:id="@+id/rate"
+                android:id="@+id/rateButton"
                 android:layout_width="130dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -72,14 +72,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
             <ImageView
-                android:id="@+id/privacy"
+                android:id="@+id/privacyPolicyButton"
                 android:layout_width="130dp"
                 android:layout_height="60dp"
                 android:layout_marginRight="10dp"
                 android:onClick="onPrivacyPoliceButtonClick"
                 app:srcCompat="@drawable/privacy" />
             <ImageView
-                android:id="@+id/share"
+                android:id="@+id/shareButton"
                 android:layout_width="130dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"

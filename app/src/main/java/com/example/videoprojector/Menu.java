@@ -16,12 +16,15 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        TextView title = (TextView)findViewById(R.id.title);
-        Shader textShader=new LinearGradient(0, 0, 800, 0, new int[]{Color.parseColor("#B6E5FF"),Color.parseColor("#F6D0C5")},
-                new float[]{0, 1}, Shader.TileMode.CLAMP);
-        title.getPaint().setShader(textShader);
+        this.setTitleGradient();
         Model.instance().selectedVideo = null;
         Model.instance().selectedTheme = null;
+    }
+
+    private void setTitleGradient() {
+        TextView title = (TextView)findViewById(R.id.title);
+        Shader textShader=new LinearGradient(0, 0, 800, 0, new int[]{Color.parseColor("#B6E5FF"),Color.parseColor("#F6D0C5")}, new float[]{0, 1}, Shader.TileMode.CLAMP);
+        title.getPaint().setShader(textShader);
     }
 
     public void onVideoProjectorMenuButtonClick(View view) {
@@ -30,8 +33,8 @@ public class Menu extends AppCompatActivity {
     }
 
     public void onVideoThemeButtonClick(View view) {
-        Intent videotheme = new Intent(Menu.this, SelectTheme.class);
-        startActivity(videotheme);
+        Intent selectThemeIntent = new Intent(Menu.this, SelectTheme.class);
+        startActivity(selectThemeIntent);
     }
 
     public void onProjectorGuideButtonClick(View view) {

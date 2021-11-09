@@ -12,9 +12,8 @@ public class VideoPlayer extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_video_player);
-        VideoView videoView =(VideoView)findViewById(R.id.vdVw);
+        VideoView videoView =(VideoView)findViewById(R.id.videoPlayer);
         MediaController mediaController= new MediaController(this);
         mediaController.setAnchorView(videoView);
         Uri uri = Uri.parse(Model.instance().selectedVideo.getAbsolutePath());

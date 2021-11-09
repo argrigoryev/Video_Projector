@@ -8,8 +8,6 @@
     tools:context=".ProjectorGuide"
     android:background="#000000">
 
-
-
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -22,7 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <ImageView
         android:id="@+id/popcorn"
         android:layout_width="250dp"
@@ -34,25 +31,25 @@
         app:srcCompat="@drawable/popcorn" />
 
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="130dp"
-    android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center"
-    android:orientation="horizontal"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent">
 
 
         <ImageView
-            android:id="@+id/whocameupwith"
+            android:id="@+id/whoCameUpButton"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:onClick="onWhoCameButtonClick"
             app:srcCompat="@drawable/whocameupwith" />
 
         <ImageView
-            android:id="@+id/howtouse"
+            android:id="@+id/howToUseButton"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="10dp"
@@ -60,7 +57,7 @@
             app:srcCompat="@drawable/howtouse" />
 
         <ImageView
-            android:id="@+id/howtoclose"
+            android:id="@+id/howToCloseButton"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="10dp"
