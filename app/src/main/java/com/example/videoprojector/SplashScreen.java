@@ -1,14 +1,8 @@
 package com.example.videoprojector;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.os.Bundle;
-import android.widget.ProgressBar;
-import android.widget.SeekBar;
-
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -18,12 +12,10 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+        this.scheduleNavigation();
+    }
 
-//        YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder(API_key).build();
-//
-//        YandexMetrica.activate(getApplicationContext(), config);
-//
-//        YandexMetrica.enableActivityAutoTracking(this);
+    private void scheduleNavigation() {
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
