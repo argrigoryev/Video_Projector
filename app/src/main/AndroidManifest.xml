@@ -1,73 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.videoprojector">
+    package="com.vidcompany.videohdtoolsgrop">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".App"
+        android:name="com.vidcompany.videohdtoolsgrop.App"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon_app"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.VideoProjector"
-        android:requestLegacyExternalStorage="true">
+        android:theme="@style/Theme.VideoProjector">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9562261954889993~9547758390"/>
+
         <activity
-            android:name=".VideoProjector"
+            android:name="com.vidcompany.videohdtoolsgrop.VideoPlayer"
             android:exported="true" />
         <activity
-            android:name=".Finish"
+            android:name="com.vidcompany.videohdtoolsgrop.SelectPlayerVideo"
             android:exported="true" />
         <activity
-            android:name=".VideoPlayer"
+            android:name="com.vidcompany.videohdtoolsgrop.Select"
             android:exported="true" />
         <activity
-            android:name=".SelectPlayerVideo"
+            android:name="com.vidcompany.videohdtoolsgrop.Main"
             android:exported="true" />
         <activity
-            android:name=".HowToChoose"
+            android:name="com.vidcompany.videohdtoolsgrop.StartApp"
             android:exported="true" />
         <activity
-            android:name=".HowToUse"
-            android:exported="true" />
-        <activity
-            android:name=".WhoCameUpWith"
-            android:exported="true" />
-        <activity
-            android:name=".Setting"
-            android:exported="true" />
-        <activity
-            android:name=".ProjectorGuide"
-            android:exported="true" />
-        <activity
-            android:name=".SelectTheme"
-            android:exported="true" />
-        <activity
-            android:name=".SelectProjectorVideo"
-            android:exported="true" />
-        <activity
-            android:name=".Menu"
-            android:exported="true" />
-        <activity
-            android:name=".Select"
-            android:exported="true" />
-        <activity
-            android:name=".PrivacyPolicy"
-            android:exported="true" />
-        <activity
-            android:name=".Main"
-            android:exported="true" />
-        <activity
-            android:name=".StartApp"
-            android:exported="true" />
-        <activity
-            android:name=".SplashScreen"
+            android:name="com.vidcompany.videohdtoolsgrop.SplashScreen"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

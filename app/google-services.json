@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "681439959415",
+    "project_id": "projector-16e7d",
+    "storage_bucket": "projector-16e7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681439959415:android:6d4b29d7f09792e4a82972",
+        "android_client_info": {
+          "package_name": "com.vidcompany.videohdtoolsgrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681439959415-ifnqbcnk0dkfriuf02jjdbiel29je7em.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT6MypVieHbBmQbn3DSxVTlUi-6AJ90Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681439959415-ifnqbcnk0dkfriuf02jjdbiel29je7em.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,11 +11,11 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VIDEO PROJECTOR"
+        android:layout_marginTop="20dp"
+        android:text="VIDEO PLAYER"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="30sp"
-        android:layout_marginTop="60dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,29 +23,34 @@
     <ImageView
         android:id="@+id/popcorn"
         android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title"
         app:srcCompat="@drawable/popcorn" />
 
+    <com.google.android.ads.nativetemplates.TemplateView
+        android:id="@+id/native_ad_view_news_feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:gnt_template_type="@layout/gnt_medium_template_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popcorn" />
+
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="185dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="-30dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
-
-        <ImageView
-            android:id="@+id/videoProjectorImageButton"
-            android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:layout_gravity="center"
-            android:onClick="onVideoProjectorSelectButtonClick"
-            app:srcCompat="@drawable/videoprojectorimage" />
 
         <ImageView
             android:id="@+id/videoStreamingButton"
@@ -54,7 +59,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:onClick="onVideoStreamingButtonClick"
-            app:srcCompat="@drawable/videostreaming" />
+            app:srcCompat="@drawable/select_video" />
     </LinearLayout>
 
 

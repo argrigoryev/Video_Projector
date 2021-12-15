@@ -24,14 +24,17 @@
         <entry key="..\:/work/app/src/main/res/layout/activity_startapp.xml" value="0.25416666666666665" />
         <entry key="..\:/work/app/src/main/res/layout/activity_who_came_up_with.xml" value="0.25416666666666665" />
         <entry key="..\:/work/app/src/main/res/layout/files_list.xml" value="0.24682971014492755" />
+        <entry key="app/src/main/res/layout/activity_finish.xml" value="0.27794871794871795" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17980072463768115" />
         <entry key="app/src/main/res/layout/activity_select.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_select_player_video.xml" value="0.2740740740740741" />
         <entry key="app/src/main/res/layout/activity_select_theme.xml" value="0.1693840579710145" />
         <entry key="app/src/main/res/layout/activity_select_video.xml" value="0.17481884057971014" />
         <entry key="app/src/main/res/layout/activity_select_video2.xml" value="0.17481884057971014" />
         <entry key="app/src/main/res/layout/activity_setting.xml" value="0.2895868363909609" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.14895833333333333" />
         <entry key="app/src/main/res/layout/activity_start_app.xml" value="0.17481884057971014" />
+        <entry key="app/src/main/res/layout/activity_video_player.xml" value="0.27794871794871795" />
         <entry key="app/src/main/res/layout/activity_video_projector.xml" value="0.335" />
         <entry key="app/src/main/res/layout/files_list.xml" value="0.17481884057971014" />
       </map>
